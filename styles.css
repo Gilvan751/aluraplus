@@ -10,6 +10,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal:'Inter';
+    --botao-hover: rgb(195, 21, 218);
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -131,4 +132,7 @@ body{
 }
 .lista_link a:active {
     color: purple;
+}
+.container_botao a:hover {
+    color:var(--botao-hover);
 }
